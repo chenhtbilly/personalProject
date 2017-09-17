@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.com.forum.pojo">
+	<class name="Reply" table="reply">
+		<id name="id">
+			<column name="id"/>
+			<generator class="native"></generator>
+		</id>
+		<property name="content">
+			<column name="content"></column>
+		</property>
+		
+		<property name="ip">
+			<column name="ip"></column>
+		</property>
+		
+		<property name="rtime" type="timestamp">
+			<column name="rtime"></column>
+		</property>
+		<many-to-one name="theme" class="Theme" column="theme_id"/>
+		
+	</class>
+
+</hibernate-mapping>
