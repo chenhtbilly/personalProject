@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/index.jsp=UTF-8
+encoding//src/cn/syslisten/action/MonitorInfoAction.java=GBK
+encoding//src/cn/syslisten/dao/MonitorInfoDao.java=GBK
+encoding//src/cn/syslisten/dao/impl/MonitorInfoDaoImpl.java=GBK
+encoding//src/cn/syslisten/listener/DataListener.java=GBK
+encoding//src/cn/syslisten/pojo/MonitorInfo.java=GBK
+encoding//src/cn/syslisten/service/MonitorInfoService.java=GBK
+encoding//src/cn/syslisten/service/impl/MonitorInfoServiceImpl.java=GBK
+encoding//src/cn/syslisten/util/ByteUtil.java=GBK
+encoding//src/cn/syslisten/util/DeleteInfoTimerTask.java=GBK
+encoding//src/cn/syslisten/util/SaveInfoTimerTask.java=GBK
+encoding//test/cn/syslisten/service/impl/HibernateTest.java=GBK
+encoding//test/cn/syslisten/service/impl/MonitorInfoServiceImplTest.java=GBK
+encoding//xml-prop/log4j.properties=UTF-8

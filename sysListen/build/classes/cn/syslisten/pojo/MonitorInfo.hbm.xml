@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="cn.syslisten.pojo.MonitorInfo" table="monitor">
+		<id name="id" type="java.lang.Integer">
+			<column name="id" />
+			<generator class="native"></generator>
+		</id>
+		<property name="osName" type="java.lang.String">
+			<column name="osName" length="20" />
+		</property>
+		<property name="memoryPercent" type="java.lang.Integer">
+			<column name="memoryPercent" length="4" />
+		</property>
+		<property name="totalMemory" type="java.lang.Long">
+			<column name="totalMemory" length="12" />
+		</property>
+		<property name="usedMemory" type="java.lang.Long">
+			<column name="usedMemory" length="12" />
+		</property>
+		<property name="cpuRatio" type="java.lang.Double">
+			<column name="cpuRatio" length="10" />
+		</property>
+		<property name="totalDiscSize" type="java.lang.Long">
+			<column name="totalDiscSize" length="20" />
+		</property>
+		<property name="freeDiscSize" type="java.lang.Long">
+			<column name="freeDiscSize" length="20" />
+		</property>
+		<property name="discUsage" type="java.lang.Integer">
+			<column name="discUsage" length="4" />
+		</property>
+		<property name="rxBytes" type="java.lang.Long">
+			<column name="rxBytes" length="30" />
+		</property>
+		<property name="txBytes" type="java.lang.Long">
+			<column name="txBytes" length="30" />
+		</property>
+		 <property name="savedTime" type="java.sql.Timestamp">
+            <column name="savedTime" length="19" />
+        </property>
+	</class>
+</hibernate-mapping>
