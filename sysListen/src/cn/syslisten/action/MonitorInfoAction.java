@@ -96,13 +96,16 @@ public class MonitorInfoAction extends ActionSupport implements RequestAware,
 		String imagePath = "";
 		try {
 			imagePath = rootPath + "image/cpu.jpeg";
+			log.info("imagePath="+imagePath);
 			fos_jpg = new FileOutputStream(imagePath);
 			ChartUtilities.writeChartAsJPEG(fos_jpg, jfreechart, 2000, 700);
 		} catch (Exception e) {
+			e.printStackTrace();
 		} finally {
 			try {
 				fos_jpg.close();
 			} catch (Exception e) {
+				e.printStackTrace();
 			}
 		}
 		// Í¼Æ¬Ïà¶ÔÂ·¾¶

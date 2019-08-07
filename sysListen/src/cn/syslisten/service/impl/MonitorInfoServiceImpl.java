@@ -1,6 +1,7 @@
 package cn.syslisten.service.impl;
 
 import java.io.File;
+import java.lang.management.ManagementFactory;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,7 +16,6 @@ import org.hyperic.sigar.NetInterfaceStat;
 import org.hyperic.sigar.Sigar;
 import org.hyperic.sigar.SigarException;
 
-import sun.management.ManagementFactory;
 import cn.syslisten.dao.MonitorInfoDao;
 import cn.syslisten.pojo.MonitorInfo;
 import cn.syslisten.service.MonitorInfoService;

@@ -1,5 +1,5 @@
 use syslisten;
-drop table monitor;
+drop table if exists monitor;
 CREATE TABLE `monitor` (
    `id` int(11) NOT NULL AUTO_INCREMENT,
    `osName` varchar(20) DEFAULT NULL,

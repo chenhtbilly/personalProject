@@ -38,10 +38,10 @@
 	</bean>
 	<!-- c3p0数据连接池 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-		<property name="jdbcUrl" value="jdbc:mysql://localhost:6688/syslisten"/>
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/syslisten"/>
 		<property name="driverClass" value="com.mysql.jdbc.Driver"/>
-		<property name="user" value="admin"/>
-		<property name="password" value="admin"/>
+		<property name="user" value="root"/>
+		<property name="password" value="root"/>
 	</bean>
 	<!-- 事务管理器 -->
 	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
