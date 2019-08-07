@@ -3,12 +3,13 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>   
 <c:set var="forum" value="${pageContext.request.contextPath}"></c:set>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> --> 
-<meta name="apple-mobile-web-app-capable" content="yes" /> 
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />        
-<meta name="format-detection" content="telephone=no" />
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> --> 
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />        
+	<meta name="format-detection" content="telephone=no" />
     <title>主题列表-风过无痕</title>
     <script  type="text/javascript"  src="${forum}/jscss/jquery.js"></script>
     <script  type="text/javascript"  src="${forum}/jscss/jquery.metadata.js"></script>
